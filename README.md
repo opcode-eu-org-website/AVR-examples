@@ -1,7 +1,7 @@
 AVR-examples
 ============
 
-Repozytorium zawiera przykładowe kody demonstrujące użycie podstawowych peryferiów w mikrokntolerze typu AVR.
+Repozytorium zawiera przykładowe kody demonstrujące użycie podstawowych peryferiów w mikrokontrolerze typu AVR.
 
 
 ## Mikrokontrolery AVR
@@ -46,12 +46,12 @@ Kompilację kodów dla ATmega328 oraz wgranie ich do mikrokontrolera można wyko
 ### obsługa GPIO
 
 * [sterowanie wyjściem](1-GPIO/output.c)
-* [odczy stanu wejścia](1-GPIO/input.c)
+* [odczyt stanu wejścia](1-GPIO/input.c)
 
 ### obsługa portu szeregowego
 
 * [z aktywnym czekaniem](2-UART/podstawowa.c)
-* [z obsługą przewań](2-UART/przerwania.c)
+* [z obsługą przerwań](2-UART/przerwania.c)
 * [wysyłanie danych via UART w stylu printf](2-UART/serialPrintf-lib4avr.c) – biblioteczka używana w dalszych przykładach
 
 ### obsługa przetwornika analogo-cyfrowego
